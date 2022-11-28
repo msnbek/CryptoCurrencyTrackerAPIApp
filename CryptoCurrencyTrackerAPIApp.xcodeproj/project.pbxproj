@@ -13,6 +13,7 @@
 		EDC212802934F96C00082819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC2127E2934F96C00082819 /* Main.storyboard */; };
 		EDC212822934F96F00082819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC212812934F96F00082819 /* Assets.xcassets */; };
 		EDC212852934F96F00082819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC212832934F96F00082819 /* LaunchScreen.storyboard */; };
+		EDC2128D2934F9C500082819 /* CoinStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2128C2934F9C500082819 /* CoinStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EDC212812934F96F00082819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDC212842934F96F00082819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDC212862934F96F00082819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC2128C2934F9C500082819 /* CoinStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EDC212782934F96C00082819 /* AppDelegate.swift */,
 				EDC2127A2934F96C00082819 /* SceneDelegate.swift */,
 				EDC2127C2934F96C00082819 /* ViewController.swift */,
+				EDC2128C2934F9C500082819 /* CoinStruct.swift */,
 				EDC2127E2934F96C00082819 /* Main.storyboard */,
 				EDC212812934F96F00082819 /* Assets.xcassets */,
 				EDC212832934F96F00082819 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC2127D2934F96C00082819 /* ViewController.swift in Sources */,
+				EDC2128D2934F9C500082819 /* CoinStruct.swift in Sources */,
 				EDC212792934F96C00082819 /* AppDelegate.swift in Sources */,
 				EDC2127B2934F96C00082819 /* SceneDelegate.swift in Sources */,
 			);
